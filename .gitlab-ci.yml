@@ -1,0 +1,25 @@
+stages:
+  - build-test-deploy
+variables:
+  RUST_VERSION: "stable"
+  ZIG_VERSION: "0.10.0"
+before_script:
+  - apt-get update -qy
+  - apt-get install -y curl jq wget xz-utils build-essential
+build-test-deploy:
+  stage: build-test-deploy
+  image: ubuntu:latest
+  script:
+    - curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain $RUST_VERSION
+    - export PATH="$HOME/.cargo/bin:$PATH"
+    - rustc --version
+    - export CARGO_HOME="${CI_PROJECT_DIR}/.cargo"
+    - export PATH="${CARGO_HOME}/bin:$PATH"
+    - wget https://ziglang.org/download/${ZIG_VERSION}/zig-linux-x86_64-${ZIG_VERSION}.tar.xz
+    - tar -xf zig-linux-x86_64-${ZIG_VERSION}.tar.xz
+    - mv zig-linux-x86_64-${ZIG_VERSION}/* /usr/local/bin
+    - zig version
+    - make lint
+    - make format
+    - make test
+    - make build
