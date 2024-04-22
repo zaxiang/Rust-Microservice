@@ -4,13 +4,15 @@ stages:
 
 # Define variables that can be used across jobs
 variables:
+  CI_REGISTRY_USER: gitlab-ci-token
+  CI_ACCESS_KEY: "$CI_JOB_TOKEN"
   IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
   DOCKER_HOST: tcp://docker:2375
   DOCKER_DRIVER: overlay2
 
 build:
   stage: build
-  image: docker:stable # Use the Docker image for running Docker commands
+  image: docker:stable # Use the Docker image .for running Docker commands
   services:
     - docker:dind # Enable Docker-in-Docker service for building Docker images
   before_script:
