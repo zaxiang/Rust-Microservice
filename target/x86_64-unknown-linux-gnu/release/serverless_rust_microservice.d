@@ -1,0 +1,1 @@
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/x86_64-unknown-linux-gnu/release/serverless_rust_microservice: /Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/src/main.rs

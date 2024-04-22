@@ -1,0 +1,10 @@
+/Users/xiangzairan/Desktop/IDS721/mini-project5/serverless_rust_microservice/target/debug/deps/libactix_rt-e11d0d6c8bf5096c.rmeta: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/arbiter.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/runtime.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/system.rs
+
+/Users/xiangzairan/Desktop/IDS721/mini-project5/serverless_rust_microservice/target/debug/deps/libactix_rt-e11d0d6c8bf5096c.rlib: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/arbiter.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/runtime.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/system.rs
+
+/Users/xiangzairan/Desktop/IDS721/mini-project5/serverless_rust_microservice/target/debug/deps/actix_rt-e11d0d6c8bf5096c.d: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/arbiter.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/runtime.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/system.rs
+
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/lib.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/arbiter.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/runtime.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-2.9.0/src/system.rs:

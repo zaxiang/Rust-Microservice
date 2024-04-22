@@ -1,0 +1,8 @@
+/Users/xiangzairan/Desktop/IDS721/mini-project5/serverless_rust_microservice/target/x86_64-unknown-linux-gnu/release/deps/librustls_pemfile-9e99b5e42099598f.rmeta: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/pemfile.rs
+
+/Users/xiangzairan/Desktop/IDS721/mini-project5/serverless_rust_microservice/target/x86_64-unknown-linux-gnu/release/deps/librustls_pemfile-9e99b5e42099598f.rlib: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/pemfile.rs
+
+/Users/xiangzairan/Desktop/IDS721/mini-project5/serverless_rust_microservice/target/x86_64-unknown-linux-gnu/release/deps/rustls_pemfile-9e99b5e42099598f.d: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/pemfile.rs
+
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/lib.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustls-pemfile-1.0.4/src/pemfile.rs:

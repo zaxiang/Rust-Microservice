@@ -1,0 +1,9 @@
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/deps/libzstd_sys-30003d27de30fa8f.rmeta: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zstd.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zdict.rs
+
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/deps/libzstd_sys-30003d27de30fa8f.rlib: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zstd.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zdict.rs
+
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/deps/zstd_sys-30003d27de30fa8f.d: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zstd.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zdict.rs
+
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/lib.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zstd.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.10+zstd.1.5.6/src/bindings_zdict.rs:

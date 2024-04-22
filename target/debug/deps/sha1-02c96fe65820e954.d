@@ -1,0 +1,10 @@
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/deps/libsha1-02c96fe65820e954.rmeta: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/soft.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/x86.rs
+
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/deps/libsha1-02c96fe65820e954.rlib: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/soft.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/x86.rs
+
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/deps/sha1-02c96fe65820e954.d: /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/lib.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/soft.rs /Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/x86.rs
+
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/lib.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/soft.rs:
+/Users/xiangzairan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha1-0.10.6/src/compress/x86.rs:

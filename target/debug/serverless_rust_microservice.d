@@ -1,0 +1,1 @@
+/Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/target/debug/serverless_rust_microservice: /Users/xiangzairan/Desktop/IDS721/individual_project2/serverless_rust_microservice/src/main.rs
