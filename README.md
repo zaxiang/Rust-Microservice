@@ -6,8 +6,7 @@ This project is a Continuous Delivery of Rust Microservice that return the numbe
 - Simple REST API/web service in Rust
 - Dockerfile to containerize service
 - CI/CD pipeline files
-* REST API Endpoint: Processes JSON requests to calculate the sum of numbers.
-* Interactive Web Interface: Users can input a list of numbers to calculate their sum directly from their browser.
+
 ## Please refer to the demo video in the repo: demo.mp4
 
 ## Author
