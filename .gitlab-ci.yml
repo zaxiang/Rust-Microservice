@@ -1,25 +1,21 @@
+# Define stages for the pipeline
 stages:
-  - build-test-deploy
+  - build
+
+# Define variables that can be used across jobs
 variables:
-  RUST_VERSION: "stable"
-  ZIG_VERSION: "0.10.0"
-before_script:
-  - apt-get update -qy
-  - apt-get install -y curl jq wget xz-utils build-essential
-build-test-deploy:
-  stage: build-test-deploy
-  image: ubuntu:latest
+  IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_DRIVER: overlay2
+
+build:
+  stage: build
+  image: docker:stable # Use the Docker image for running Docker commands
+  services:
+    - docker:dind # Enable Docker-in-Docker service for building Docker images
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_ACCESS_KEY
   script:
-    - curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain $RUST_VERSION
-    - export PATH="$HOME/.cargo/bin:$PATH"
-    - rustc --version
-    - export CARGO_HOME="${CI_PROJECT_DIR}/.cargo"
-    - export PATH="${CARGO_HOME}/bin:$PATH"
-    - wget https://ziglang.org/download/${ZIG_VERSION}/zig-linux-x86_64-${ZIG_VERSION}.tar.xz
-    - tar -xf zig-linux-x86_64-${ZIG_VERSION}.tar.xz
-    - mv zig-linux-x86_64-${ZIG_VERSION}/* /usr/local/bin
-    - zig version
-    - make lint
-    - make format
-    - make test
-    - make build
+    - docker build -t my_serverless_microservice .
+    - docker run -d -p 8088:8088 my_serverless_microservice
+    - docker ps -a

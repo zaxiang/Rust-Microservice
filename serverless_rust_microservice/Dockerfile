@@ -1,19 +1,32 @@
-FROM rust:1.75 AS builder
+# Use a Rust base image
+FROM rust:latest as builder
 
 # Set the working directory
-WORKDIR /usr/src/my_serverless_microservice
+WORKDIR /usr/src/app
 
-# Change the user to root
-USER root
+# Copy the local Cargo.toml and Cargo.lock files to the container
+COPY Cargo.toml Cargo.lock ./
 
-# Copy everything
+# Build dependencies to speed up the build process
+RUN mkdir src && echo "fn main() {}" > src/main.rs && cargo build --release
+
+# Copy the entire source code to the container
 COPY . .
 
-# Build the project
+# Build the application
 RUN cargo build --release
 
-# Expose port 8080
-EXPOSE 8080
+# Use a slim ubuntu image for the final container
+FROM ubuntu:latest
 
-# Define the default command to run
-CMD cargo run
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the built binary from the builder image
+COPY --from=builder /usr/src/app/target/release/serverless_rust_microservice .
+
+# Expose the application port
+EXPOSE 8088
+
+# Set the command to run the application
+CMD ["./serverless_rust_microservice"]
